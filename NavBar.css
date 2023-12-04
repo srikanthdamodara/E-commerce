@@ -1,0 +1,104 @@
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+ 
+    justify-content:space-between;
+    background-color: #fff;
+}
+
+.nav-logo p{
+    font-size:22px;
+    font-weight: bold;
+
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo img{
+    margin-left:30px;
+}
+
+
+.nav-menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size:18px;
+    font-weight: 500;
+
+}
+.nav-login-cart{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-menu li{
+    list-style-type: none;
+   margin-left:80%;
+   cursor: pointer;
+}
+.nav-login-cart button{
+    margin-right:70px;
+    background-color:#fff;
+    color:#000;
+    border-radius:75px;
+    
+    height:40px;
+    font-family: 'Poppins', sans-serif;
+    width:120px;
+    cursor: pointer;
+    border:2px solid #7a7a7a;
+    font-weight: 500;
+    outline: none;
+
+}
+.nav-login-cart img{
+    height:30px;
+    width:30px;
+    margin-right:10px;
+    
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+button{
+    cursor: pointer;
+}
+.nav-menu hr{
+    border:none;
+    width:90%;
+    height:3px;
+    border-radius: 10px;
+    background:#FF4141;
+   
+}
+
+
+.nav-login-cart button:active{
+    background-color: #f3f3f3;
+    color:#000;
+}
+
+.nav-cart-count{
+    width:22px;
+    height:22px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-35px;
+    margin-left:-25px;
+    border-radius: 11px;
+    font-size:14px;
+    background-color: red;
+    color:white;
+
+
+}

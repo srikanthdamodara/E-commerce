@@ -1,0 +1,58 @@
+.offers{
+    width:65%;
+    height:60vh;
+    display:flex;
+    margin:auto;
+    padding:0px 140px;
+    margin-bottom:200px;
+    margin-top:80px;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+}
+
+
+.offers-left{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.offers-left h1{
+    font-size:60px;
+    font-weight:600;
+    color:rgb(186, 125, 105);
+
+}
+
+.offers-left p{
+
+    font-size:22px;
+    font-weight:600;
+    color:rgb(47, 42, 40);
+}
+
+
+.offers-left button{
+    width:222px;
+    height:60px;
+    border-radius: 35px;
+    background: rgb(65, 65, 255);
+    border:none;
+    color:white;
+    font-weight:500;
+    margin-top: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 22px;
+    cursor:pointer;
+
+}
+.offers-right{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 190px;
+    flex:1;
+}
